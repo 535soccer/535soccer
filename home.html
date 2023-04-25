@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>535soccer</title>
+    <link rel="stylesheet" href="style/style.css">
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="icon" href="https://previews.dropbox.com/p/thumb/AB7x3E_M2ZXn5mfyjEyNDgX7bBKOESJIHGVgcOFO9emRVfWyIdFlYV_fL2lk2Bg3pdI4O_OnlaTteSxnSHjjOeZGj7jM46iWmpkE3VXk5nvwDDbIgdhzaE3vTpTu-1EDWJ9qJZ227bYa969hssgTO46Am3lhedg0f-TjNaO0gsEKWzM9nxlaCJCBrBPotzTpe_yIf2a8Y33K7-BWJy00hiVKCScmIMqWkZK83QyQz0SsLLUfnjb51dhzTfWO5s2lo3oUek560Y897ZLs5wzYK7BDJrKPxxspKjXX-r-JwRxyMgvO0NDNuBre2Hb_spWD2LLDel57lRT5Xd04_D7vU_wlQPnEm8b76ikewI3KFBLxPkP_sOermJ8W6D69QoESgic/p.png" >
+
+
+<style>
+  body{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+nav{
+    background-color: #150f0f;
+    display: flex;
+    padding: 0 50px;
+  height: 69px;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .logo img{
+    height: 54px;
+  }
+  
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li a{
+    color:white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+  }
+  
+  li a:hover{
+    background-color: #ff0000;
+  }
+  
+  
+  body{
+    background-color: #000000;
+  }
+  
+  .no{
+height:280px;
+  }
+  .bo{
+    height:280px;
+      }
+
+      .to{
+        height:280px;
+          }
+
+          .do{
+            height:280px;
+              }
+  .no{
+    position: absolute;
+    top: 95%;
+    left: 54%;
+   
+  }.bo{
+   
+
+   position: absolute;
+    top: 95%;
+    left: 15%;
+   
+  }
+
+
+.to{
+   
+
+    position: absolute;
+     top: 127%;
+     left: 15%;
+    
+   }
+
+   .do{
+    position: absolute;
+    top: 127%;
+    left: 54%;
+   
+  }
+
+  .dis{
+    color: white;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+  }
+
+
+  .no1{
+   height: 280px;
+    position: absolute;
+    top: 300%%;
+    left: 54%;
+   
+  }.bo2{
+   
+height: 280px;
+   position: absolute;
+    top: 300%%;
+    left: 15%;
+   
+  }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer {
+      background-color: #222;
+      color: #fff;
+      padding: 40px 0;
+  }
+  
+  .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  
+  .footer-section {
+      flex: 1;
+      margin: 0 20px;
+  }
+  
+  .about h2, .contact h2, .social h2 {
+      margin-bottom: 20px;
+  }
+  
+  .about p, .contact p, .social p {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+  }
+  
+  .social i {
+      font-size: 24px;
+      margin-right: 10px;
+  }
+  
+  .footer-bottom {
+      background-color: #3d3b3b;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .footer-bottom p {
+      font-size: 14px;
+  }
+  
+
+  .banner {
+    background-image: url('https://wallpapercave.com/wp/wp11287241.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  object-fit: contain;
+  height: 700px;
+  
+  }
+  
+  .banner__contents {
+    margin-left: 30px;
+    padding-top: 400px;
+    height: 190px;
+  }
+  
+  .banner titel {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+  }
+  
+  .banner__description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 180px;
+  }
+  
+  .button {
+
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+	border: 1px solid var(--black);
+	color: var(--black);
+    color: #000000;
+  }
+
+  .button10 {
+
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+	border: 1px solid var(--black);
+	color: var(--black);
+    color: #000000;
+  }
+
+  
+  
+  .button2 {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+    border-radius: 20px;
+	border: 1px solid var(--blue);
+	color: var(--white);
+    color: #000000;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb{background:#ffffff}
+
+::-webkit-scrollbar{width:5px;height:9px;background:#4b4848}
+
+body{margin:0}
+
+td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+.container{margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}
+
+@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}
+
+@media (min-width:1200px){.container{width:1170px}}
+
+.container-fluid{margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}
+
+.container:before,.container:after,.container-fluid:before,.container-fluid:after{content:" ";display:table}
+
+.container:after,.container-fluid:after,{clear:both}
+
+/*mnajiri*/
+
+.contents.widget-content {padding: 5px !important;}
+
+/*mnajiri*/
+
+.contents.widget-content{padding:15px}
+
+div#match_today h2{text-align:center;padding:10px;background:#ffffff;color:#000000}
+
+/*mnajiri*/
+
+.mnajiri{display:block;height:94px;position:relative;
+
+    box-shadow:rgba(0, 0, 0, 0.57) 0px 25px 20px -21px;
+    
+    -webkit-transition:box-shadow .3s;transition:box-shadow .3s;
+    
+    border-radius:5px;margin:12px auto;
+    
+    background:#d2d1d1;}
+    
+/*mnajiri*/
+
+.fullink{display:block;height:100%;position:absolute;right:0;width:100%;z-index:5}
+
+/*mnajiri*/
+
+.mnajiriin{margin:0 13px}
+
+/*mnajiri*/
+
+.mnajiri img{background-color:#fff;border-bottom:3px solid #ffffff;height:50px;padding:4px;position:absolute;width:50px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,0.1),0 2px 5px -1px rgba(0,0,0,0.2);-webkit-transition:box-shadow .3s;transition:box-shadow .3s}
+
+/*mnajiri*/
+
+.mpart1 strong{
+
+    color: #ffffff;
+
+    height: 50px;
+
+    margin-right: -50px;
+
+    position: absolute;
+
+    right: 50%;
+
+    text-align: center;
+
+    width: 100px;
+
+    z-index: 1;
+
+    border-radius: 5px;}
+
+.mpart1{position:relative;height:48px;line-height:48px}
+
+.mpart1 span{
+
+    float: right;
+
+    text-align: center;
+
+    width: 100%;
+
+    z-index: 2;
+
+}
+
+/*mnajiri*/
+
+.right_match{float:right;padding-left:30px;width:50%;position:relative;z-index:2}
+
+/*mnajiri*/
+
+.left_match{float:left;padding-right:30px;width:50%;position:relative;z-index:2}
+
+.details_match{padding:0 100px;font-size:14px}
+
+.details_match i{margin-left:5px}
+
+.details_match span{background-color:#000000;border-left:1px solid #fff;color:#fff;float:right;height:36px;line-height:36px;position:relative;text-align:center;width:33.3%}
+
+.details_match .liga_mdw{border:0 none}
+
+.first_match::before,.liga_mdw::before{background-color:#ffffff;content:"";height:36px;position:absolute;top:0;width:20px}
+
+.first_match::before{transform:skew(-20deg);right:-12px;border-radius:0 0 8px}
+
+.liga_mdw::before{transform:skew(20deg);left:-12px;border-radius:0 0 0 8px}
+
+@media screen and (max-width:700px){.liga_mdw{display:none}.details_match{padding:0 60px}.details_match span{width:50%}.thany::before{background-color:#fcfcfc;content:"";height:36px;position:absolute;top:0;width:20px;transform:skew(20deg);left:-12px;border-radius:0 0 0 8px}}
+
+@media screen and (max-width:500px){.gadwal{font-size:14px;width:106%;background:#fff} }
+
+.details_match{font-size:12px}
+
+/*mnajiri*/
+
+.mpart1{line-height:30px}
+
+/*mnajiri*/
+
+.mnajiriin{margin:0 5px}
+
+/*mnajiri*/
+
+.right_match{padding-left:20px}
+
+.left_match{padding-right:20px}
+
+/*mnajiri*/
+
+.mnajiri{height:157px}
+
+.details_match{padding:0 25px}
+
+/*mnajiri*/
+
+.mnajiri img{position:relative;display:block;margin:5px auto;background:transparent;border:0;padding:0}
+
+.mpart1 strong{height:36px;line-height:36px;top:30px;width:60px;margin-right:-30px}
+
+.najiri1{
+
+    background-color: #ff0000f0;
+
+}
+
+.najiri2{
+
+    background-color: #ff0000f6;
+
+}
+
+.najiri3{
+
+    background-color: #ff0000e6;
+
+}
+  
+
+/* RESET */
+
+
+
+  .button_plus {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid #ff0000;
+  
+    /* Mittig */
+    top: 50%;
+    left: 50%;
+  }
+  
+  
+   
+  .buttons-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    background: white;
+    border: solid 2px black;
+    padding: .375em 1.125em;
+    font-size: 1rem;
+  }
+  
+  .button-arounder {
+    font-size: 2rem;
+    background: hsl(0, 100%, 50%);
+    color: hsl(190deg, 10%, 95%);
+    
+    box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, .2);
+    transfrom: translateY(0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+    --dur: .15s;
+    --delay: .15s;
+    --radius: 16px;
+    
+  }
+  
+  .button_plus{
+    top: 230%;
+    left: 43%;
+  }
+  
+ 
+  @media only screen and (max-width: 600px){
+    li{
+      display: none;
+  
+    }
+  
+  .logo img{
+    position: absolute;
+    top: 1%;
+    left: 41%;
+    
+  }
+
+  .banner {
+    width: 100vw; 
+    height: 50vh; 
+  }
+
+  .no{
+    height:8px;
+  }
+
+  .button{
+    height: 50px;
+      position: absolute;
+      top: 48%;
+      left: 9%;
+      transform: translate(-50, -30%);
+  }
+
+  .no{
+    height:150px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+      }
+      .bo{
+        height:150px;
+    position: absolute;
+    top: 88%;
+    left: 10%;
+          }
+    
+          .to{
+            height:150px;
+            position: absolute;
+            top: 106%;
+            left: 10%;
+              }
+    
+              .do{
+                height:150px;
+                position: absolute;
+                top: 125%;
+                left: 10%;
+                  }
+
+
+                  .dis{
+                    color: white;
+                    position: absolute;
+                    top: 60%;
+                    left: 10%;
+                  }
+
+                  h5{
+                    position: absolute;
+                    top: 41%;
+                    left: 9%;
+                  }
+                
+                  .banner__title{
+                    position: absolute;
+                    top: 27%;
+                    left: 9%;
+                  }
+
+
+                  .card-1{
+                    display: none;
+                  }
+                  .card-4{
+                    display: none;
+                  } .card-5{
+                    display: none;
+                  } .card-6{
+                    display: none;
+                  }
+                 
+                  .no1{
+                    height:150px;
+                    position: absolute;
+                    top: 272%;
+                    left: 10%;
+                      }
+                      .bo2{
+                        height:150px;
+                    position: absolute;
+                    top: 254%;
+                    left: 10%;
+                          }
+  }
+</style>
+</head>
+<body>
+    <nav>
+        
+        <div class="logo">
+            <a href="home.html"><img src="https://previews.dropbox.com/p/thumb/AB7x3E_M2ZXn5mfyjEyNDgX7bBKOESJIHGVgcOFO9emRVfWyIdFlYV_fL2lk2Bg3pdI4O_OnlaTteSxnSHjjOeZGj7jM46iWmpkE3VXk5nvwDDbIgdhzaE3vTpTu-1EDWJ9qJZ227bYa969hssgTO46Am3lhedg0f-TjNaO0gsEKWzM9nxlaCJCBrBPotzTpe_yIf2a8Y33K7-BWJy00hiVKCScmIMqWkZK83QyQz0SsLLUfnjb51dhzTfWO5s2lo3oUek560Y897ZLs5wzYK7BDJrKPxxspKjXX-r-JwRxyMgvO0NDNuBre2Hb_spWD2LLDel57lRT5Xd04_D7vU_wlQPnEm8b76ikewI3KFBLxPkP_sOermJ8W6D69QoESgic/p.png" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="home.html">home</a></li>
+                <li><a href="match.html">match</a></li>
+                <li><a href="news.html">news</a></li>
+                <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+<!-- header -->
+<div class="banner">
+    <div class="banner__contents">
+        <h1 class="banner__title">'GIVE HAALAND THE BALLON D'OR'</h1>
+              <h5>Roony with glowing praise for Man City's 
+                Norwegian superstar
+              </h5>
+              <br>
+            
+            <a href="#"><button type="button" class="button button1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                </a>
+</svg>
+NEWS
+              </button>
+            </div>
+            </div>
+            <div class="contalner">
+                <div class="row">
+                    <div class="col">
+                        <br>
+                        <br>
+                        <h2 class="dis">
+                            Important matches this week
+                        </h2>
+                        <br>
+                        <a href="https://www.2embed.to/embed/tmdb/movie?id=76600"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUmr7h7g2sEbnMropQjMxqWXgyVbL6pBzSg&usqp=CAU" alt="HTML tutorial" class="no"></a>
+                        <a href="The Last of U.HTML"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUmr7h7g2sEbnMropQjMxqWXgyVbL6pBzSg&usqp=CAU" alt="HTML tutorial" class="bo"></a>
+                        <br>
+                        <a href="https://www.2embed.to/embed/tmdb/movie?id=640146"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUmr7h7g2sEbnMropQjMxqWXgyVbL6pBzSg&usqp=CAU" alt="HTML tutorial"class="to" ></a>
+                        <a href="https://www.2embed.to/embed/tmdb/movie?id=505642"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUmr7h7g2sEbnMropQjMxqWXgyVbL6pBzSg&usqp=CAU" alt="HTML tutorial"class="do"></a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                      
+                        <br
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <br
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="match_today container" id="match_today">
+                            <h2>Match day</h2>
+                            
+                            <div class="widget-content">
+                            
+                            <!--match mdw-->
+                            <div class="mnajiri">
+                                 <a class="fullink" href="#"></a>
+                                   <div class="mnajiriin">
+                                     <div class="mpart1">
+                                       <div class="right_match">
+                                          <span class="right_tech">
+                                             <img src="https://1.bp.blogspot.com/-7lsf3aLJwpc/XO93fb6TvVI/AAAAAAAAF2M/CRRuHN5ZiQg0UECmePeWeHCgGfeF-P0RwCEwYBhgL/s1600/a.png">
+                                              <div class="fname">برشلونة</div>
+                                           </span>
+                                       </div>
+                                             <strong class="najiri1">19:00</strong>
+                                             <div class="left_match">
+                                               <span class="left_tech">
+                                                 <img src="https://1.bp.blogspot.com/-Sy8KMWfGjgM/XO94YxfPRZI/AAAAAAAAF2k/o7ry2Vm2GJEBjQcnOwMLDJZ8I423WTcGgCEwYBhgL/s1600/u.png">
+                                                   <div class="fname">ريال مدريد</div>
+                                               </span>
+                                            </div>
+                                        </div>
+                                           <div class="details_match">
+                                              <span class="first_match">
+                                                 <i aria-hidden="true" class="fa fa-clock-o"></i><b>غرينتش</b>
+                                               </span>
+                                               <span class="thany"><i aria-hidden="true" class="fa fa-futbol-o"></i><b>دوري ابطال اوروبا</b>
+                                               </span>
+                                               <span class="liga_mdw"><i aria-hidden="true" class="fa fa-desktop"></i><b>Bein Sport HD1</b>
+                                               </span>
+                                          </div>
+                                  </div>
+                               </div>
+                            
+                            
+                            
+                            
+                            
+                            <!--match mdw-->
+                            <div class="mnajiri">
+                               <a class="fullink" href="#"></a>
+                                 <div class="mnajiriin">
+                                   <div class="mpart1">
+                                     <div class="right_match">
+                                        <span class="right_tech">
+                                           <img src="https://1.bp.blogspot.com/-Sy8KMWfGjgM/XO94YxfPRZI/AAAAAAAAF2k/o7ry2Vm2GJEBjQcnOwMLDJZ8I423WTcGgCEwYBhgL/s1600/u.png">
+                                            <div class="fname">ليفربول</div>
+                                         </span>
+                                     </div>
+                                           <strong class="najiri2">شوط 1</strong>
+                                           <div class="left_match">
+                                             <span class="left_tech">
+                                               <img src="https://1.bp.blogspot.com/-tPibRsTPCD8/XO93jyQudZI/AAAAAAAAF2Q/DIGITySC8jksEBnRuz5nFtREIl-09Y3aQCEwYBhgL/s1600/c.png">
+                                                 <div class="fname">برايتون</div>
+                                             </span>
+                                          </div>
+                                      </div>
+                                         <div class="details_match">
+                                            <span class="first_match">
+                                               <i aria-hidden="true" class="fa fa-clock-o"></i><b>جارية الأن</b>
+                                             </span>
+                                             <span class="thany"><i aria-hidden="true" class="fa fa-futbol-o"></i><b>الدوري الانجليزي</b>
+                                             </span>
+                                             <span class="liga_mdw"><i aria-hidden="true" class="fa fa-desktop"></i><b>Bein Sport HD1</b>
+                                             </span>
+                                        </div>
+                                </div>
+                             </div>
+                            
+                            
+                            
+                            
+                            
+                              <!--match mdw-->
+                            <div class="mnajiri">
+                               <a class="fullink" href="#"></a>
+                                 <div class="mnajiriin">
+                                   <div class="mpart1">
+                                     <div class="right_match">
+                                        <span class="right_tech">
+                                           <img src="https://1.bp.blogspot.com/-KS4keBtdmlg/XO93rSlg2fI/AAAAAAAAF2U/P8JcoEC2j_A9ZNv4sABfMrvjcQC9xQYwQCEwYBhgL/s1600/d.png">
+                                            <div class="fname">ليفربول</div>
+                                         </span>
+                                     </div>
+                                           <strong class="najiri3">إستراحة</strong>
+                                           <div class="left_match">
+                                             <span class="left_tech">
+                                               <img src="https://1.bp.blogspot.com/-Sy8KMWfGjgM/XO94YxfPRZI/AAAAAAAAF2k/o7ry2Vm2GJEBjQcnOwMLDJZ8I423WTcGgCEwYBhgL/s1600/u.png">
+                                                 <div class="fname">برايتون</div>
+                                             </span>
+                                          </div>
+                                      </div>
+                                         <div class="details_match">
+                                            <span class="first_match">
+                                               <i aria-hidden="true" class="fa fa-clock-o"></i><b>ستبدأ بعد قليل</b>
+                                             </span>
+                                             <span class="thany"><i aria-hidden="true" class="fa fa-futbol-o"></i><b>الدوري الانجليزي</b>
+                                             </span>
+                                             <span class="liga_mdw"><i aria-hidden="true" class="fa fa-desktop"></i><b>Bein Sport HD1</b>
+                                             </span>
+                                        </div>
+                                </div>
+                             </div>
+                            
+                            
+                            
+                              <!--match mdw-->
+                            <div class="mnajiri">
+                               <a class="fullink" href="#"></a>
+                                 <div class="mnajiriin">
+                                   <div class="mpart1">
+                                     <div class="right_match">
+                                        <span class="right_tech">
+                                           <img src="https://1.bp.blogspot.com/-7lsf3aLJwpc/XO93fb6TvVI/AAAAAAAAF2M/CRRuHN5ZiQg0UECmePeWeHCgGfeF-P0RwCEwYBhgL/s1600/a.png">
+                                            <div class="fname">ليفربول</div>
+                                         </span>
+                                     </div>
+                                           <strong class="najiri1">4-0</strong>
+                                           <div class="left_match">
+                                             <span class="left_tech">
+                                               <img src="https://1.bp.blogspot.com/-tPibRsTPCD8/XO93jyQudZI/AAAAAAAAF2Q/DIGITySC8jksEBnRuz5nFtREIl-09Y3aQCEwYBhgL/s1600/c.png">
+                                                 <div class="fname">برايتون</div>
+                                             </span>
+                                          </div>
+                                      </div>
+                                         <div class="details_match">
+                                            <span class="first_match">
+                                               <i aria-hidden="true" class="fa fa-clock-o"></i><b> إنتهت</b>
+                                             </span>
+                                             <span class="thany"><i aria-hidden="true" class="fa fa-futbol-o"></i><b>الدوري الانجليزي</b>
+                                             </span>
+                                             <span class="liga_mdw"><i aria-hidden="true" class="fa fa-desktop"></i><b>Bein Sport HD1</b>
+                                             </span>
+                                        </div>
+                                </div>
+                             </div>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <div class="buttons-container">
+                                <a href="match.html"><button class="button-arounder">Show All Match</button></a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="contalner">
+                            <div class="row">
+                                <div class="col">
+                                    <br>
+                                    <br>
+                                    <h2 class="dis">
+                                        Important matches this week
+                                    </h2>
+                                    <br>
+                                    <a href="https://www.2embed.to/embed/tmdb/movie?id=76600"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUmr7h7g2sEbnMropQjMxqWXgyVbL6pBzSg&usqp=CAU" alt="HTML tutorial" class="no1"></a>
+                                    <a href="The Last of U.HTML"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUmr7h7g2sEbnMropQjMxqWXgyVbL6pBzSg&usqp=CAU" alt="HTML tutorial" class="bo2"></a>
+                                    
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                     
+                           
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br><br>
+                                    <br>
+                                     
+                            <div class="buttons-container">
+                                <a href="news.html"><button class="button-arounder">Show All News</button></a>
+                              </div>
+                                    <br>
+                                    <br>
+                                    <br>
+    <footer>
+  <div class="footer-content">
+      <div class="footer-section about">
+        <div class="logo">
+            <a href="#"><img src="https://previews.dropbox.com/p/thumb/AB7tIkJcWb4W6zrQcG-dfoJcheceCaMHpNo_nvtJc4r7t7Puh6y8_uSFtNfQA9IVrI3TZQnNQ8-DmQ7BLxkpY3_NNcwPtaH8McrQrPIgS-_lNPa4OWs2g_3rfydci835otHEbD5VnqhqrK-1KoU5n8InqX71jEOICZR4BEsFWpUl_x7OAABuyuqnkLFa5Q3zuQH1NIIkqopeGkuHfIEHH0s-1RiyxLMoAEPDt9hKr420Yn9bprSmv5-js9oetG9IlqwdFVtLdU9Rys1f8BaQEVK-7k-jptGtMqnbzvUdW1wamb9F_Dor9FkcT-xnBz_c0WUUTs5Shi1FbSwhqYocWsop1t-F49NzSqW0xe1cnPIB1kFbkWW-rl8yheU9yLLU--8/p.png" alt=""></a>
+        </div>
+        <br>
+        
+          <h2>About Us</h2>
+          <p>Home to the best content creators football in the world</p>
+      </div>
+      <div class="footer-section contact">
+        <h2>535soccre</h2>
+        <p><i class="fa fa-phone"></i>home</p>
+        <p><i class="fa fa-envelope"></i> match</p>
+        <p><i class="fa fa-map-marker"></i>news</p>
+        <p><i class="fa fa-map-marker"></i>about</p>
+
+      </div>
+      <div class="footer-section social">
+          <h2>Follow Us</h2>
+          <p><i class="fa fa-facebook"></i> Facebook</p>
+          <p><i class="fa fa-twitter"></i> Twitter</p>
+          <p><i class="fa fa-instagram"></i> Instagram</p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>Copyright © 2023  535soccer</p>
+  </div>
+</footer>
+</body>
+</html>
